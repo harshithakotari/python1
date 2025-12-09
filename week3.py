@@ -51,7 +51,7 @@ Call the function for n = 5 and n = 7 and print the results.
 
 def solution4(n):
     result = 1
-    for i in range(n,1,-1):
+    for i in range(1,n + 1):
         result *= i
     return result
 print(solution4(5))
@@ -129,7 +129,7 @@ def solution9(reports):
     student_name = ""
     for name, score in reports.items():
         if score > max_score:
-            score = max_score
+            max_score = score 
             student_name = name
     return student_name
 
