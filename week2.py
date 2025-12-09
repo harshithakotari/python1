@@ -78,7 +78,7 @@ Homework 6 about Loops: Write a program that uses a for loop to iterate through 
 and calculates the sum of all even numbers. However, if the running sum exceeds 1000, use the break
 statement to stop the loop and print the sum at that point.
 '''
-result = 0
+total_sum = 0
 limit = 1000
 
 for i in range(1, 101):
